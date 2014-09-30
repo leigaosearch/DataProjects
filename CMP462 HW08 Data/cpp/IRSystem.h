@@ -16,7 +16,7 @@ private:
     
 public:
     std::vector <std::string> GetUniqWords();
-    void ReadStemmedData();
+    void ReadStemmedData(std::string dir);
     void ReadRawData();
     void ComputeTFIDF();
     double GetTFIDF(std::string word, std::string document);
